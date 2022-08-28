@@ -1,0 +1,64 @@
+html, body{
+    height: 100%;
+border: 0;
+padding: 0;
+background-color: blanchedalmond;
+}
+.title{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(165, 107, 32, 0.95);
+padding: 30px auto 15px auto;
+font-size: 40px;
+color: rgb(204, 189, 150);
+box-shadow: 10px 10px 10px 15px rgb(165, 107, 32);
+}
+.bg{
+    background-image: url("Images/Cover-image.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul.recipes{
+    list-style: none;
+    text-align: center;
+text-decoration: none;
+padding-top: 300px;
+}
+li.recipes{
+    text-align: center;
+    background-color: blanchedalmond;
+    font-size: 35px;
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+a:link, a:hover, a:visited, a:hover {
+text-decoration: none;
+color: rgb(197, 162, 74);
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+img{
+    float: right;
+    height: auto;
+    width: 550px;
+}
+.steps{
+clear: left;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+p, li{
+    font-size: 20px;
+}
+
+
